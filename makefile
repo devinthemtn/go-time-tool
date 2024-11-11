@@ -19,3 +19,7 @@ clean:
 	rm bin/${BINARY_NAME}-darwin
 	rm bin/${BINARY_NAME}-linux
 	rm bin/${BINARY_NAME}-windows
+
+install: 
+	cp ./bin/mytime-darwin ~/bin/mdate
+	chmod +x ~/bin/mdate
